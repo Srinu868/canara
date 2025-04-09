@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="refresh" content="0; url=upi://pay?pa=3300226503244701@cnrb&pn=AKhand%20Deepak%20Jyothi" />
-  <title>Redirecting to UPI...</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay AKhand Deepak Jyothi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #e8f0ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #004aad;
+      margin-bottom: 1rem;
+    }
+    .qr {
+      margin: 1rem 0;
+    }
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #004aad;
+      color: white;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .button:hover {
+      background-color: #003080;
+    }
+  </style>
 </head>
 <body>
-  <p>If you are not redirected, <a href="upi://pay?pa=3300226503244701@cnrb&pn=AKhand%20Deepak%20Jyothi">click here</a>.</p>
+  <div class="container">
+    <h1>Pay AKhand Deepak Jyothi</h1>
+    <div class="qr">
+      <img src="https://chart.googleapis.com/chart?cht=qr&chl=upi%3A%2F%2Fpay%3Fpa%3D3300226503244701%40cnrb%26pn%3DAKhand%20Deepak%20Jyothi&chs=250x250&chld=L|0" alt="Scan to Pay">
+    </div>
+    <a class="button" href="upi://pay?pa=3300226503244701@cnrb&pn=AKhand%20Deepak%20Jyothi">
+      Pay Now
+    </a>
+  </div>
 </body>
 </html>
